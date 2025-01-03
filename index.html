@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -10,17 +6,27 @@
         <title>AboutMe</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <h1>Nicolas Alarcon</h1>
-        <h2>For my <a href="docs/NicolasAlarcon_2025Resume.pdf">resume</a></h2>
+        <h1 id="header">Nicolas Alarcon</h1>
+
+        <h3>Here's my <a href="pages/NicolasAlarcon_2025Resume.pdf">resume </a></h3>
+        <div style="display: flex;">
+
+        <div style="width:50%">
+            <embed src="pages/NicolasAlarcon_2025Resume.pdf" type="application/pdf" alt="Not liking this formal">
+        </div>
+
+        <div class="testclass" style="width:50%;">
         <ul>
-            <li><a href="portfolio.html">Here's My Portfolio</a></li>
+            <li><a href="pages/portfolio.html">Here's My Portfolio</a></li>
             <li><a href="https://www.etsy.com/shop/NicoMakes">Here's My Etsy</a></li>
-            <li><a href="bartending.html"> For Bartending Events or Otherwise</a></li>
-        </ul>
+            <li><a href="pages/bartending.html"> For Bartending Events or Otherwise</a></li>
+        </ul> 
+        </div>
+
         
-        
+        </div>
     </body>
 </html>

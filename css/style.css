@@ -1,0 +1,18 @@
+body {
+    background-color:rgb(239, 217, 206); 
+    font-family: Garamond;
+}
+
+.testclass {
+    size:10%
+}
+
+#header {
+    text-align: center; 
+    font-size: 300%; 
+    color:rgb(23, 3, 18);
+}
+
+a {
+    color:rgb(23, 3, 18);
+}
