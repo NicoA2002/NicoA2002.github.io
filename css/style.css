@@ -3,8 +3,9 @@ body {
     font-family: Garamond;
 }
 
-.testclass {
-    size:10%
+.embed_doc {
+    max-width: 100%;
+    height: auto;
 }
 
 #header {
@@ -15,4 +16,18 @@ body {
 
 a {
     color:rgb(23, 3, 18);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+  }
+
+div {
+    border: 10px black; /* behaving weirdly */
+    background-color: whitesmoke;
+    margin: 20px
 }

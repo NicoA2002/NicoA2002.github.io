@@ -4,29 +4,43 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>AboutMe</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Resume and Portfolio">
+        <meta name="keywords" content="Nicolas Alarcon,projects,resume,freelance">
+        <meta name="author" content="Nicolas Alarcon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <h1 id="header">Nicolas Alarcon</h1>
 
         <div style="display: flex;">
+            <div style="width:50%">
+                <embed class="embed_pdf" src="pages/NicolasAlarcon_2025Resume.pdf" type="application/pdf" alt="Not liking this formal" style="width:100%; height:100%">
+                <h3>Here's my <a href="pages/NicolasAlarcon_2025Resume.pdf">resume </a> in pdf form</h3>
+                </div>
 
-        <div style="width:50%">
-            <embed src="pages/NicolasAlarcon_2025Resume.pdf" type="application/pdf" alt="Not liking this formal" style="width:100%; height:100%">
-            <h3>Here's my <a href="pages/NicolasAlarcon_2025Resume.pdf">resume </a> in pdf form</h3>
-            </div>
+            <div style="width:50%;">
+            
+                For bartending events, commisisons, or anything else I can do for you, shoot me an <a href=""mailto:na2946@columbia.edu"> email</a>!</li>
 
-        <div class="testclass" style="width:50%;">
-        <ul>
-            <li><a href="pages/portfolio.html">Here's My Portfolio</a></li>
-            <li><a href="https://www.etsy.com/shop/NicoMakes">Here's My Etsy</a></li>
-            <li><a href="pages/bartending.html"> For Bartending Events or Otherwise</a></li>
-        </ul> 
+            <ul>
+                <li><a href="pages/portfolio.html">Here's My Portfolio</a></li>
+                <li><a href="https://www.etsy.com/shop/NicoMakes">Here's My Etsy</a></li>
+            </ul> 
+
+            <form name="Quiz">
+                
+                <br> <br>
+                
+                <fieldset>
+                    <legend>Who is your favorite maker, electrical engineer, bartender extraordinaire?</legend>
+                    <label><input type="radio" name="radio" value="Nico" /> Nico</label>
+                    <label><input type="radio" name="radio" value="no" /> Someone Else</label>
+                  </fieldset>
+                  <br> <div class="center"><button onclick=correct()>Find Out Here!</button> </div>
+            </form>
+            </div> 
         </div>
-
-        
-        </div>
+    <script src="scripts/script.js"></script>
     </body>
 </html>
